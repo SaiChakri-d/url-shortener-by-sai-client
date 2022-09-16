@@ -1,0 +1,156 @@
+.App {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: auto;
+  width: 100%;
+  padding: 50px;
+}
+/* .add-user-container{
+  /* background-color: orange;
+  width:100%;
+   /* display: flex;
+  align-items: center; */
+/* border:2px solid black;
+  padding:20px;
+  margin:200px 400px 100pxpx 100px; */
+/* } */
+
+.add-user-form {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 100px 100px;
+}
+.add-user-name {
+  width: 400px;
+  height: 50px;
+  /* margin-top: 10px; */
+}
+.add-user-btn {
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+  background-color: skyblue;
+  /* margin-top: 10px; */
+}
+
+/* .pageNotFound{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:25px;
+} */
+.NotFoundImg {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+img.displayed {
+  display: block;
+  height: 400px;
+  padding: 0;
+  margin: 0;
+  width: 600px;
+  object-fit: cover;
+  margin-left: auto !important;
+  margin-right: auto !important ;
+}
+.application {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 50px;
+}
+
+/* .paper-style{
+  width:95% !important;
+
+} */
+
+.h3-tag {
+  font-family: "Roboto", sans-serif;
+}
+.table-content {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 80%;
+  margin: 100px auto;
+  overflow-x: auto;
+}
+.table1 {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table1 td,
+.table1 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 17px;
+}
+.table1 th {
+  font-size: 20px;
+}
+/* #f2f2f2 */
+.table1 tr:nth-child(even) {
+  background-color: #f8f6fd;
+}
+
+.table1 tr:hover {
+  background-color: #e9e6f8;
+}
+
+.table1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #51459e;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .dashboard-chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 100px 10px;
+
+    /* background-color: teal; */
+    /* height: 500px; */
+    gap: 20px;
+  }
+  .add-user-name {
+    width: 300px;
+    /* margin-top: 10px; */
+  }
+  .add-user-btn {
+    width: 300px;
+  }
+  img.displayed {
+    height: 100px;
+    width: 200px;
+  }
+}
+.pageNotFound {
+  text-align: center;
+}
+.imageForNotFound {
+  height: 50% !important;
+  width: 50% !important;
+}
